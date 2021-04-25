@@ -1,0 +1,109 @@
+head,
+body {
+    background-color: white;
+}
+
+.logo img {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.Title {
+    color: #846767;
+    float: left;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+
+.status img {
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    position: relative;
+    float: left;
+}
+
+
+.main-nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: right;
+    left: 1000px;
+}
+
+.links {
+    float: right;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.safe,
+.Awareness {
+    margin-left: 25px;
+}
+
+.main-nav a:link {
+    color: #846767;
+}
+
+.main-nav a:active,
+.main-nav a:visited {
+    text-decoration: none;
+    color: #846767;
+}
+
+.main-nav a:hover {
+    color: #84676788
+}
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+body {
+  font-family: 'Merriweather' , 'Georgia';
+  font-size: 10px;
+  }
+.wrapper {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 550px;
+  margin-top: 225px;
+  position: absolute;
+}
+h1 {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+}
+input[type="text"] {
+  display: block;
+  font-size: 1.6rem;
+  padding: .5rem;
+  margin: 1.25rem 0;
+  width: 370px;
+}
+button {
+  background: #E2B9B9;
+  
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  width: 392px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: absolute;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.instruction {
+    font-size: 24px;
+
+
+}

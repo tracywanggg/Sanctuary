@@ -1,0 +1,81 @@
+head,
+body {
+    background-color: #F7EFEF;
+}
+
+.logo img {
+    float: left;
+    width: 500px;
+    height: 200px;
+}
+
+.tiktok p{
+    color: #7e77dd;
+    float: left;
+    position: relative;
+    font-size: 24px;
+    top: 200px;
+    width: 500px;
+    display: inline;
+}
+
+.tiktok img{
+    width: 600px;
+    height: 300px;
+    top: 200px;
+    position: absolute;
+    float: left;
+}
+
+.nine p{
+    color: #7e77dd;
+    position: relative;
+    font-size: 24px;
+    top: 500px;
+    right:250px;
+    width: 500px;
+    display: inline;
+    float: left;
+}
+.nine img{
+    width: 600px;
+    height: 300px;
+    left: 10px;
+    top: 700px;
+    position: absolute;
+    float: left;
+}
+
+.main-nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: right;
+    left: 1000px;
+}
+
+.links {
+    float: right;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.safe,
+.Awareness {
+    margin-left: 25px;
+}
+
+.main-nav a:link {
+    color: #846767;
+}
+
+.main-nav a:active,
+.main-nav a:visited {
+    text-decoration: none;
+    color: #846767;
+}
+
+.main-nav a:hover {
+    color: #84676788
+}

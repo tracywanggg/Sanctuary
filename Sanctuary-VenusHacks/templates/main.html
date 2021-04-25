@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type ="text/css" href="mainStyle.css">
+        <title>Sanctuary</title>
+    </head>
+    <body>
+        <header> 
+            <style>
+            a:link{
+            text-decoration: none!important;
+            cursor: pointer;
+            }
+            </style>
+            <nav>
+                <div class="row">
+                    <div class = "logo">
+                        <a href = "main.html" class="logo"><img src = "images/sanctuary.png"></a>
+                    </div>
+                <ul class="main-nav">
+                    <div class = "links">
+                    <a class = "Resource" href="Resources.html">Resources</a>
+                    <a class = "safe" href="Safety.html">Safety Tips</a>
+                    <a class = "Awareness" href ="Aware.html">Raising Awareness</a>
+                    </div>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <div class = "status">
+            <img src="images/logo2.png">
+            </div>
+            <div class="wrapper">
+              <div class="instruction">
+               <label>What would you like to share today?</label> 
+               </div>
+              <input id="input" type="text"></input>
+              <button id="submitButton" type="submit">Post</button>
+              <img src="images/logo2.png" id="image" style="display: none;width: 100px;height: 100px;float: left;position: relative;top: 150px;">
+              <p id='result' style="display: inline-block; float: left;top: 150px;position: relative;"></p>
+              </div>
+    </body>
+      <!--- Add javascript file --->
+  <script>
+    function userInput () {
+    var input = document.getElementById('input').value;
+    var result = document.getElementById('result');
+  
+         result.textContent = input;
+
+        document.getElementById("image").style.display='inline';
+
+    }
+  
+    submitButton.addEventListener('click', userInput, false); 
+  </script>
+</html>
